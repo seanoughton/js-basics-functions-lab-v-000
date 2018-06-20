@@ -29,7 +29,7 @@ function calculatesFarePrice(startBlock,endBlock) {
   let result
   let feet = distanceTravelledInFeet(startBlock,endBlock)
   switch (feet){
-    case feet < 400;
+    case feet < 400:
     result = 0;
   }
 
